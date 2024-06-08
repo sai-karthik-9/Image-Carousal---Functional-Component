@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Arial', 'Verdana', 'Tahoma', sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier', 'Lucida Console', 'Monaco', monospace;
+}

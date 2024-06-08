@@ -1,0 +1,48 @@
+/* write down the css for Carousel in this file */
+.carouselContainer {
+    width: 50%;
+    height: 800px;
+    background-color: black;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.inner .leftArrow,.inner .rightArrow {
+    flex: 5%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.inner .container {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-family: Arial;
+    text-align: justify;
+    text-align-last: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1, p {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 9px;
+}
